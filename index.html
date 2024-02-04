@@ -1,9 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common CSS Properties</title>
 
+    <link href="resources/css/index.css" rel="stylesheet">
+</head>
 <body>
-  <h1>ROB ELLEMENT</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+        
+    <div id="container">
+        <h1>Common CSS Properties</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Property</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Example</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td><span class="code">font-size</span></td>
+                    <td>The <span class="code">font-size</span> CSS property is used to set text sizes. Font size values can be many different units or types such as pixels.</td>
+                    <td><span class="code">font-size: 30px;</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">background-color</span></td>
+                    <td>The <span class="code">background-color</span> CSS property controls the background color of elements.</td>
+                    <td><span class="code">background-color: #000000</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">!important</span></td>
+                    <td>The CSS <span class="code">!important</span> rule is used on declarations to override any other declarations for a property and ignore selector specificity. <span class="code">!important</span> rules will ensure that a specific declaration always applies to the matched elements. However, generally it is good to avoid using <span class="code">!important</span> as bad practice.</td>
+                    <td><span class="code">font-size: 30px !important</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">opacity</span></td>
+                    <td>The <span class="code">opacity</span> CSS property can be used to control the transparency of an element. The value of this property ranges from <span class="code">0</span> (transparent) to <span class="code">1</span> (opaque).</td>
+                    <td><span class="code">opacity: 0.5;</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">font-weight</span></td>
+                    <td>The <span class="code">font-weight</span> CSS property can be used to set the weight (boldness) of text. The provided value can be a keyword such as <span class="code">bold</span> or <span class="code">normal</span>.</td>
+                    <td><span class="code">font-weight: bold;</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-align</span></td>
+                    <td>The <span class="code">text-align</span> CSS property can be used to set the text alignment of inline contents. This property can be set to these values: <span class="code">left</span>, <span class="code">right</span>, or <span class="code">center</span>.</td>
+                    <td><span class="code">text-align: right;</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">color</span></td>
+                    <td>Using the <span class="code">color</span> property, foreground text color of an element can be set in CSS. The value can be a valid color name supported in CSS like <span class="code">green</span> or <span class="code">blue</span>. Also, 3 digit or 6 digit color code like <span class="code">#22f</span> or <span class="code">#2a2aff</span> can be used to set the color.</td>
+                    <td><span class="code">color: #2a2aff;</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">background-image</span></td>
+                    <td>The <span class="code">background-image</span> CSS property sets the background image of an element. An image URL should be provided in the syntax <span class="code">url("moon.jpg")</span> as the value of the property.</td>
+                    <td><span class="code">background-image:<br> url("nyan-cat.gif");</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">font-family</span></td>
+                    <td>The <span class="code">font-family</span> CSS property is used to specify the typeface in a rule set. Fonts must be available to the browser to display correctly, either on the computer or linked as a web font. If a font value is not available, browsers will display their default font. When using a multi-word font name, it is best practice to wrap them in quotes.</td>
+                    <td><span class="code">font-family: "Courier New";</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
-
 </html>
