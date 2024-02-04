@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(to bottom, lemonchiffon, gold, chocolate, crimson);
+}
+
+#container {
+    background-color: lemonchiffon;
+    margin: 25px 75px;
+    border-radius: 25px;
+    padding: 25px 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: crimson;
+    text-transform:uppercase
+}
+
+table {
+    position: relative;
+    margin: 0 auto;
+    table-layout: auto;
+    width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+th {
+    background-color: crimson;
+    color: lemonchiffon;
+}
+
+td {
+    vertical-align: top;
+}
+
+td:nth-child(1) {
+    white-space: nowrap;
+}
+
+td:nth-child(3) {
+    white-space: nowrap;
+}
+
+table, th, td {
+    table-layout: auto;
+    padding: 12px;
+    border-collapse: collapse;
+    border: 1px solid crimson;
+    text-align: left;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gold;
+}
+
+
